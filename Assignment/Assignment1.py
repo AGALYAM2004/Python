@@ -4,7 +4,7 @@ degree = input("Enter Degree: ")
 percentage = float(input("Enter Percentage: "))
 
 
-print("\n--- Student Details ---")
+print("\nStudent Details")
 print("Name:", student_name)
 print("Age:", age)
 print("Degree:", degree)
@@ -20,6 +20,6 @@ years_remaining = 30 - age
 
 percentage_required = 100 - percentage
 
-print("\n--- Additional Information ---")
+print("\nAdditional Information")
 print("Years remaining to reach age 30:", years_remaining)
 print("Percentage required to reach 100:", percentage_required)
